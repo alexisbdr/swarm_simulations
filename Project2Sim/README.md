@@ -21,6 +21,6 @@ Segregation error is calculated based on the princicple that larger robots shoul
 
 ### Results 
 Results are the 3 pictures: 
-1. [100 Robots for 1 shell]
-2. [100 Robots for 2 shells (50/50)]
-3. [210 Robotos for 3 shells (70/70/70)]
+1. 100 Robots for 1 shell
+2. 100 Robots for 2 shells (50/50)
+3. 210 Robotos for 3 shells (70/70/70)
