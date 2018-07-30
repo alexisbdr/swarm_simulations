@@ -18,8 +18,8 @@ The aim of the simulation is to use distributed hopcount to achieve a global coo
 
 ### Results 
 Results are the 4 pictures: 
-1.Rectangular lattice
-2.Rectangular lattice smoothed
-3.Hexagonal lattice
-4.Hexagonal lattice smoothed
+1.[Rectangular lattice
+2.[Rectangular lattice smoothed
+3.[Hexagonal lattice
+4.[Hexagonal lattice smoothed
 
