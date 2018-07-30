@@ -1,0 +1,38 @@
+void measure_metric()
+{	
+
+	float score = 0 ;
+	float count = 0 ; 
+	for (int ii = num_robots-1; ii >= 0; ii--) {
+		for (int jj = num_robots-1; jj >= 0; jj--) {
+			if (ii != jj) {
+				
+				count++ ; 
+				double dist_i = sqrt(pow(robots[ii]->pos[0]-light_center[0],2)+pow(robots[ii]->pos[1]-light_center[1],2)) ; 
+				double dist_j = sqrt(pow(robots[jj]->pos[0]-light_center[0],2)+pow(robots[jj]->pos[1]-light_center[1],2)) ;
+				
+				if(dist_i >= dist_j && robots[ii]->pos[3] < robots[jj]->pos[3])
+				{	
+					score++ ; 
+				}
+				if(dist_i <= dist_j && robots[ii]->pos[3] > robots[jj]->pos[3])
+				{
+					score++ ;  
+				}
+				
+				
+			}
+		}
+	
+	}
+	
+
+	double total = score / count  ; 
+	cout << total << endl ; 
+	
+}
+
+
+
+Ufortunately my measure_metric function doesn't seem to be working properly. 
+I have had to submit it as is. 
